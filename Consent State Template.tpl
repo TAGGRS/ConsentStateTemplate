@@ -66,6 +66,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const isConsentGranted = require('isConsentGranted');
 return isConsentGranted(data.consentType) ? 'granted' : 'denied';
+data.gtmOnSuccess();
 
 
 ___WEB_PERMISSIONS___
